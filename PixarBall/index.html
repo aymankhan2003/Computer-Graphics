@@ -1,0 +1,40 @@
+<!-- CURRENT STATUS: E -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+
+    <title>Lab 09 - Pixar Ball</title>
+  </head>
+
+  <body>
+    <div style="margin: 45px">
+      <center>
+        <canvas
+          width="500"
+          height="200"
+          id="animation-canvas"
+          style="border: 2px solid black"
+        ></canvas
+        ><br />
+        <label for="input-render-depth">render depth</label>
+        <input
+          id="input-render-depth"
+          value="4"
+          min="0"
+          max="10"
+          style="width: 50px"
+          type="number"
+          onchange="animation.draw();"
+        />
+        <button id="button-animate" onclick="animateBall()">animate</button>
+        <input id="input-squash-stretch" type="checkbox" />
+        <label for="input-squash-stretch">squash & stretch</label>
+      </center>
+    </div>
+    <script src="animation.js"></script>
+  </body>
+</html>
