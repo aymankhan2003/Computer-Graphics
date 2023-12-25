@@ -1,1 +1,3 @@
 # Computer-Graphics
+
+This repositary is a collection of codes that build up different graphical interfaces. Using JavaScript, HTML, and WebGL these projects were made. These projects were also under the supervision of a Computer Graphics class I took which made us do all these independent coding labs, which displays my skills and fluency level in Computer Graphics and coding itself. Each folder has a different object and graphical interface which resembles different topics such as Pixels, Ray Tracing, Shading, Scenes, Meshes, Rasterization, Textures, Animations, Buffers, Uniforms, Attributes, and Acceleration Structures. 
